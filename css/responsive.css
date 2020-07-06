@@ -1,0 +1,223 @@
+/*		Tablet Layout: 768px.
+  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.header .navbar-brand img {
+    width: 70%;
+   
+  }
+  .header .navbar .icons {
+    color: #fff !important;
+    font-size: 27px;
+  }
+  .bg{
+    background: #000;
+    padding-left: 3%;
+  }
+  .header .home_text{
+    top: 30%;
+  }
+  .header .home_text p {
+		margin-top: -63px;
+		width: 50%;
+		font-size: 18px;
+  }
+	.header .navbar-brand img {
+		margin-left: -14%;
+	}
+	.header .navbar .navbar-toggler {
+		margin-right: -2%;
+	}
+	.main_h2 {
+		font-size: 35px !important;
+	}
+	.main_h2::before {
+		width: 210px;
+	}
+	#about .introduction_me h3{
+		font-size: 28px;
+	}
+	
+	#about .introduction_me .designation{
+		font-size: 16px;
+	}
+
+	.ser3{
+		margin-top: 0px !important;
+		padding-bottom:  0 !important;
+		padding-top: 41px;
+	}
+	.ser1,.ser2{
+		margin-top: 30px;
+		padding-top: 57px;
+	}
+	.ser1, .ser2,.ser4,.ser5{
+    border-right: 0 !important;
+  }
+  .ser1, .ser2,.ser3,.ser4{
+    border-bottom:1px solid #e3e3e3 !important;
+  }
+	.ser1, .ser3,.ser5{
+		border-right: 1px solid #e3e3e3 !important;
+	}
+
+	.ser2,.ser3{
+		padding-bottom: 30px !important;
+	}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.header .home_text p{
+		font-size: 17px;
+    width: 74%;
+		margin-top: -53px;
+	}
+	.header .home_text .social_area li a{
+		font-size: 18px;
+	}
+	.header .home_text .me{
+		display: block !important;
+	}
+
+	.header .navbar .nav-link{
+		font-size: 14px;
+	}
+	.header .navbar-brand img {
+		margin-left: -10%;
+	}
+	.header .navbar .navbar-toggler {
+		margin-right: -1%;
+	}
+	.bg{
+    background: #000;
+    padding-left: 3%;
+  }
+
+	#about .introduction_me{
+		margin-top: 55px;
+		margin-left: 8px;
+	}
+
+	#about .img_section{
+		margin-right: 24px;
+	}
+	.ser4,.ser5,.ser6{
+		border-bottom: 1px solid #e3e3e3 !important;
+	}
+	.ser1,.ser2,.ser3{
+		padding-bottom: 0px !important;
+	}
+	.ser1, .ser2,.ser4,.ser5{
+    border-right: 0 !important;
+  }
+	#services .services p{
+		width: 67%;
+		margin-bottom: 15px;
+	}
+	#countdown .count{
+		margin-bottom: 90px;
+	}
+	#countdown{
+		display: none;
+	}
+	.border-right {
+		border-right: 0 !important;
+		
+	}
+	.quic_cont{
+		border-bottom: 1px solid #e3e3e3 !important;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.header .home_text p{
+		font-size: 17px;
+		width: 71%;
+		margin-top: -53px;
+	}
+	.header .home_text .social_area li a{
+		font-size: 18px;
+	}
+	.header .home_text .me{
+		display: inline-block !important;
+	}
+
+	.header .navbar-brand img {
+		margin-left: -8%;
+	}
+	.header .navbar .navbar-toggler {
+		margin-right: -1%;
+	}
+	.bg{
+    background: #000;
+    padding-left: 3%;
+  }
+	#about .introduction_me{
+		margin-top: 55px;
+		margin-left: 8px;
+	}
+
+	#about .img_section{
+		margin-right: 24px;
+	}
+	#countdown .count {
+		background: rgba(255, 255, 255, 0.9);
+		margin-top: -78px;
+		padding: 1px 0;
+	}
+	#countdown{
+		display: none;
+	}
+	.border-right {
+		border-right: 0 !important;
+	}
+	.quic_cont{
+		border-bottom: 1px solid #e3e3e3 !important;
+	}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+}
+
+
+
+
+
+
+
